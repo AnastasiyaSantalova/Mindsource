@@ -2,15 +2,17 @@
   <mat-toolbar>
     <mat-toolbar-row>
       <span>MindSource</span>
+      <span class="spacer"></span>
+      <button mat-button routerLink="/login">Login</button>
     </mat-toolbar-row>
 
     <mat-toolbar-row>
-      <button mat-button>HOME</button>
+      <button mat-button routerLink="">HOME</button>
       <span class="spacer"></span>
-      <button mat-button>Grow</button>
-      <button mat-button>Wellness</button>
-      <button mat-button>Motivation</button>
-      <button mat-button>Books</button>
+      <button mat-button routerLink="/grow">Grow</button>
+      <button mat-button routerLink="/wellness">Wellness</button>
+      <button mat-button routerLink="/motivation">Motivation</button>
+      <button mat-button routerLink="/books">Books</button>
     </mat-toolbar-row>
   </mat-toolbar>
 </header>
